@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Sedan", serif;
+  font-weight: 500;
+  height: 100%;
+  background-image: url("./img/bg.jpg");
+  background-size: cover;
+}
+h2{
+  text-align: center;
+}
+span{
+  color: tomato;
+}
+.cart {
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 30px;
+  background-image:linear-gradient(to left top, #eadbcc, #e2dec2, #cfe4c2, #b2eacf, #91eee8);
+
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin-right: 25px;
+}
+button{
+  font-size: 25px;
+  margin: 5px;
+  
+  display: inline-block;
+  outline: 0;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 4px;
+  font-size: 13px;
+  height: 30px;
+  background-color: #9147ff;
+  color: white;
+  padding: 0 10px;
+ 
+
+}
+button:hover{
+  background: #F7CA00;
+  border-color: #F2C200;
+  box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+}
+
+
+.name,
+.price {
+  flex: 1;
+}
+
+.quantity {
+  margin: 0 10px;
+}
+
+.heart i {
+  color: tomato;
+  margin-right: 5px;
+}
+
+.delete {
+  margin-left: auto;
+}
+
+.total {
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+  border: 3px solid #fff;
+  border-radius: 15px;
+
+}
